@@ -1,7 +1,7 @@
 {
   "facets": [
     {
-      "name": "Beer Name",
+      "name": "Malt Liquor Name",
       "type": "Text",
       "metadata": {
         "sortable": true,
