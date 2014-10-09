@@ -1,7 +1,7 @@
 {
   "facets": [
     {
-      "name": "Malt Liquor Name",
+      "name": "Beer Name",
       "type": "Text",
       "metadata": {
         "sortable": true,
@@ -222,7 +222,7 @@
       "Image URL": "Bild URL",
       "Brewery": "Brauerei",
       "City": "Stadt",
-      "State": "Länder",
+      "State": "Staat",
       "Country": "Land",
       "Type": "Art",
       "ABV": "Alc Vol",
@@ -257,6 +257,34 @@
       "Availability": "Disponibilité",
       "Price": "Prix",
       "Description": "Description"
+    },
+    "Russian": {
+      "_metadata": {
+        "display_name": "Пиво",
+        "display_language": "Язык",
+        "phrases": {
+          "Sort": "Тип",
+          "Filter": "Фильтр",
+          "More": "Больше",
+          "Less": "Меньше",
+          "Sorry, no results": "Простите, но мы ничего не нашли",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "И",
+          "or": "или",
+          "Details": "Подробнее"
+        }
+      },
+      "Beer Name": "Наименование",
+      "Image URL": "URL изображения",
+      "Brewery": "Производитель",
+      "City": "Город",
+      "State": "Область",
+      "Country": "нация",
+      "Type": "Вид",
+      "ABV": "Крепость",
+      "Availability": "Доступность",
+      "Price": "Цена",
+      "Description": "Описание"
     },
     "Dutch": {
       "_metadata": {
