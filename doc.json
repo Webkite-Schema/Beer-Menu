@@ -200,6 +200,7 @@
         "sortable": false,
         "filterable": false
       }
+    },
     {
       "name": "Availability",
       "type": "Enum",
