@@ -49,6 +49,14 @@
       }
     },
     {
+      "name": "Website",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
       "name": "Type",
       "type": "Enum",
       "metadata": {
@@ -65,7 +73,31 @@
       }
     },
     {
-      "name": "Availability",
+      "name": "OG",
+      "type": "Number",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "FG",
+      "type": "Number",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "IBU",
+      "type": "Number",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Availability #1",
       "type": "Enum",
       "metadata": {
         "sortable": false,
@@ -73,10 +105,42 @@
       }
     },
     {
-      "name": "Price",
+      "name": "Price #1",
       "type": "Number",
       "metadata": {
         "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Availability #2",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Price #2",
+      "type": "Number",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Availability #3",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Price #3",
+      "type": "Number",
+      "metadata": {
+        "sortable": false,
         "filterable": false
       }
     },
@@ -87,260 +151,54 @@
         "sortable": false,
         "filterable": false
       }
+    },
+    {
+      "name": "Color",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Yeast",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Hops",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Malt",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Other",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Awards",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
     }
-  ],
-  "aliases": {
-    "Hebrew": {
-      "_metadata": {
-        "display_name": "תפריט בירה",
-        "display_language": "עברית",
-        "phrases": {
-          "Sort": "מיון",
-          "Filter": "סינון",
-          "More": "עוד",
-          "Less": "סגור",
-          "Sorry, no results": "מצטערים, אין תוצאות",
-          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
-          "and": "וגם",
-          "or": "או",
-          "Details": "לפרטים"
-        }
-      },
-      "Beer Name": "שם הבירה",
-      "Image URL": "URL של תמונה",
-      "Brewery": "מבשלה",
-      "City": "עיר",
-      "State": "מדינה",
-      "Country": "ארץ",
-      "Type": "סוג הבירה",
-      "ABV": "אחוז אלכוהול",
-      "Availability": "זמינות במלאי",
-      "Price": "מחיר",
-      "Description": "תיאור"
-    },
-    "Chinese (Mandarin)": {
-      "_metadata": {
-        "display_name": "啤酒单",
-        "display_language": "普通话",
-        "phrases": {
-          "Sort": "排序",
-          "Filter": "筛选",
-          "More": "更多",
-          "Less": "收起",
-          "Sorry, no results": "不好意思，没有结果",
-          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
-          "and": "和",
-          "or": "或",
-          "Details": "细节"
-        }
-      },
-      "Beer Name": "啤酒名称",
-      "Image URL": "图片链接",
-      "Brewery": "酒厂",
-      "City": "城市",
-      "State": "省",
-      "Country": "国家",
-      "Type": "啤酒种类",
-      "ABV": "酒精含量",
-      "Availability": "货存状态",
-      "Price": "价格",
-      "Description": "描述"
-    },
-    "Spanish": {
-      "_metadata": {
-        "display_name": "Menú de cerveza",
-        "display_language": "Español",
-        "phrases": {
-          "Sort": "Ordenar",
-          "Filter": "Filtro",
-          "More": "Más",
-          "Less": "Menos",
-          "Sorry, no results": "Lo sentimos, no hay resultados",
-          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
-          "and": "y",
-          "or": "o",
-          "Details": "Detalles"
-        }
-      },
-      "Beer Name": "Nombre de cerveza",
-      "Image URL": "URL de imagen",
-      "Brewery": "Cervecería",
-      "City": "Ciudad",
-      "State": "Estado",
-      "Country": "País",
-      "Type": "Tipo",
-      "ABV": "Alc Vol",
-      "Availability": "Disponibilidad",
-      "Price": "Precio",
-      "Description": "Descripción"
-    },
-    "Portuguese": {
-      "_metadata": {
-        "display_name": "Menú de cerveja",
-        "display_language": "Português",
-        "phrases": {
-          "Sort": "Tipo",
-          "Filter": "Filtro",
-          "More": "Mais",
-          "Less": "Menos",
-          "Sorry, no results": "Desculpe, não houve resultados",
-          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
-          "and": "e",
-          "or": "ou",
-          "Details": "Detalhes"
-        }
-      },
-      "Beer Name": "Nome de cerveja",
-      "Image URL": "URL de imagem",
-      "Brewery": "Cervejaria",
-      "City": "Cidade",
-      "State": "Estado",
-      "Country": "País",
-      "Type": "Tipo",
-      "ABV": "Alc Vol",
-      "Availability": "Disponibilidade",
-      "Price": "Preço",
-      "Description": "Descrição"
-    },
-    "German": {
-      "_metadata": {
-        "display_name": "Bier",
-        "display_language": "Deutsch",
-        "phrases": {
-          "Sort": "Art",
-          "Filter": "Filter",
-          "More": "Mehr",
-          "Less": "Weniger",
-          "Sorry, no results": "Sorry, keine Ergebnisse",
-          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
-          "and": "Und",
-          "or": "Oder",
-          "Details": "Details"
-        }
-      },
-      "Beer Name": "Biername",
-      "Image URL": "Bild URL",
-      "Brewery": "Brauerei",
-      "City": "Stadt",
-      "State": "Staat",
-      "Country": "Land",
-      "Type": "Art",
-      "ABV": "Alc Vol",
-      "Availability": "Verfügbarkeit",
-      "Price": "Preis",
-      "Description": "Beschreibung"
-    },
-    "French": {
-      "_metadata": {
-        "display_name": "Liste des bieres",
-        "display_language": "Français",
-        "phrases": {
-          "Sort": "Sorte",
-          "Filter": "Filtre",
-          "More": "Plus",
-          "Less": "Moins",
-          "Sorry, no results": "Desole, zero resultats",
-          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
-          "and": "et",
-          "or": "ou",
-          "Details": "Détails"
-        }
-      },
-      "Beer Name": "Noms",
-      "Image URL": "Image URL",
-      "Brewery": "Brasserie",
-      "City": "Ville",
-      "State": "État ou province",
-      "Country": "Pays",
-      "Type": "Type",
-      "ABV": "Alc vol",
-      "Availability": "Disponibilité",
-      "Price": "Prix",
-      "Description": "Description"
-    },
-    "Russian": {
-      "_metadata": {
-        "display_name": "Пиво",
-        "display_language": "Язык",
-        "phrases": {
-          "Sort": "Тип",
-          "Filter": "Фильтр",
-          "More": "Больше",
-          "Less": "Меньше",
-          "Sorry, no results": "Простите, но мы ничего не нашли",
-          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
-          "and": "И",
-          "or": "или",
-          "Details": "Подробнее"
-        }
-      },
-      "Beer Name": "Наименование",
-      "Image URL": "URL изображения",
-      "Brewery": "Производитель",
-      "City": "Город",
-      "State": "Область",
-      "Country": "нация",
-      "Type": "Вид",
-      "ABV": "Крепость",
-      "Availability": "Доступность",
-      "Price": "Цена",
-      "Description": "Описание"
-    },
-    "Dutch": {
-      "_metadata": {
-        "display_name": "Bier Menu",
-        "display_language": "Nederlands",
-        "phrases": {
-          "Sort": "Sorteren",
-          "Filter": "Filter",
-          "More": "Meer",
-          "Less": "Minder",
-          "Sorry, no results": "Sorry, geen resultaten",
-          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
-          "and": "en",
-          "or": "of",
-          "Details": "Details"
-        }
-      },
-      "Beer Name": "Bier Soort",
-      "Image URL": "Afbeelding URL",
-      "Brewery": "Brouwerij",
-      "City": "Stad",
-      "State": "Provincie",
-      "Country": "Land",
-      "Type": "Type",
-      "ABV": "ALC VOL",
-      "Availability": "Beschikbaarheid",
-      "Price": "Prijs",
-      "Description": "Omschrijving"
-    },
-    "Turkish": {
-      "_metadata": {
-        "display_name": "Bira Menüsü",
-        "display_language": "Türkçe",
-        "phrases": {
-          "Sort": "Sıralama",
-          "Filter": "Filtre",
-          "More": "Daha çok",
-          "Less": "Daha az",
-          "Sorry, no results": "Sonuç Bulunamadı",
-          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
-          "and": "ve",
-          "or": "veya",
-          "Details": "Detaylar"
-        }
-      },
-      "Beer Name": "Bira İsmi",
-      "Image URL": "Resim Linki",
-      "Brewery": "Bira Fabrikasi",
-      "City": "Şehir",
-      "State": "Eyalet",
-      "Country": "Ülke",
-      "Type": "Bira Türü",
-      "ABV": "Alkol Oranı",
-      "Availability": "Stokta Var/Yok",
-      "Price": "Fiyat",
-      "Description": "Tanım"
-    }
-  }
+  ]
 }
