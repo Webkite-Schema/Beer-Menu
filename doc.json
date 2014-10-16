@@ -61,7 +61,8 @@
       "type": "Enum",
       "metadata": {
         "sortable": false,
-        "filterable": true
+        "filterable": true,
+        "groupable": true
       }
     },
     {
@@ -98,26 +99,26 @@
     },
     {
       "name": "Availability #1",
-      "type": "Enum",
+      "type": "Text",
       "metadata": {
         "sortable": false,
-        "filterable": true
+        "filterable": false
       }
     },
     {
       "name": "Price #1",
       "type": "Number",
       "metadata": {
-        "sortable": true,
+        "sortable": false,
         "filterable": false
       }
     },
     {
       "name": "Availability #2",
-      "type": "Enum",
+      "type": "Text",
       "metadata": {
         "sortable": false,
-        "filterable": true
+        "filterable": false
       }
     },
     {
@@ -130,10 +131,10 @@
     },
     {
       "name": "Availability #3",
-      "type": "Enum",
+      "type": "Text",
       "metadata": {
         "sortable": false,
-        "filterable": true
+        "filterable": false
       }
     },
     {
@@ -198,6 +199,13 @@
       "metadata": {
         "sortable": false,
         "filterable": false
+      }
+    {
+      "name": "Availability",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
       }
     }
   ]
